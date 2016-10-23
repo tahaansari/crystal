@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>STEELO</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+
+    <!-- Plugin CSS -->
+    <!-- <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
+    <link rel="stylesheet" href="vendor/device-mockups/device-mockups.min.css">
+
+    <!-- Theme CSS -->
+    <link href="css/new-age.min.css" rel="stylesheet">
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet">
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" /> -->
+
+    <link href="fonts/stylesheet.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        height: 400px;
+        width: 85%;
+        margin:auto;
+        margin-bottom: 60px;
+        border-bottom: 5px solid #00aff0;
+      }
+    </style>
+
+</head>
+<body id="page-top">
+
+<!--     <div class="container">
+        <div class="row">
+            <p>Contact - 8976123456</p>
+        </div>
+    </div> -->
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <!-- Start Bootstrap -->
+                    <!-- <img style="margin-left: 10px;" src="img/logo.png"> -->
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#beginning">Begnning</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#products">Products</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <header id="home">
+        <!-- container -->
+        <div class="">
+            <div class="row">
+                <div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
+                      <!-- Overlay -->
+                      <!-- <div class="overlay"></div> -->
+
+                      <!-- Indicators -->
+                 <!--      <ol class="carousel-indicators">
+                        <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#bs-carousel" data-slide-to="1"></li>
+                        <li data-target="#bs-carousel" data-slide-to="2"></li>
+                      </ol> -->
+                      
+                      <!-- Wrapper for slides -->
+                      <div class="carousel-inner">
+                        <div class="item slides active">
+                          <div class="slide-1"></div>
+                          <div class="hero">
+                            <hgroup>
+                                <!-- <h1>Lorem Ipsum</h1>        
+                                <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </h3> -->
+                            </hgroup>
+                            <!-- <button class="btn btn-hero btn-lg" role="button">See all features</button> -->
+                          </div>
+                        </div>
+                        <div class="item slides">
+                          <div class="slide-2"></div>
+                          <div class="hero">        
+                            <hgroup>
+                               <!--  <h1>Lorem Ipsum</h1>        
+                                <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </h3> -->
+                            </hgroup>     
+                            <!-- <button class="btn btn-hero btn-lg" role="button">See all features</button> -->
+                          </div>
+                        </div>
+                
+                      </div> 
+                        <a class="page-scroll" href="#products">
+                            <img class="scrolldown floating" src="img/scrolldown.png">
+                        </a>
+                    </div>
+                <!-- <div class="col-sm-7">
+                    <div class="header-content">
+                        <div class="header-content-inner">
+                            <h1>New Age is an app landing page that will help you beautifully showcase your new mobile app, or anything else!</h1>
+                            <a href="#download" class="btn btn-outline btn-xl page-scroll">Start Now for Free!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-5">
+                    <div class="device-container">
+                        <div class="device-mockup iphone6_plus portrait white">
+                            <div class="device">
+                                <div class="screen">
+                                    <img src="img/demo-screen-1.jpg" class="img-responsive" alt="">
+                                </div>
+                                <div class="button">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+
+            </div>
+        </div>
+    </header>
+
+    <section id="beginning" class="download bg-primary text-center">
+
+        <div class="container">
+            <div class="row">
+
+
+                <div class="col-md-6 left">
+                    <img class="img-responsive beginning-hover-img"  src="img/rightimg.png">
+                    <div class="beginning-hover">
+                        <h1 class="hover-text">Lorem Ipsum</h1>
+                    </div>
+                    <div class="half-dash  mar-top-10"></div>
+
+                </div>
+                <br>
+
+                <div class="col-md-6 left" style="position: relative;">
+                    <p>STEELO  has been established as a manufacturing company in India. Our traditional business model is based on the accomplishment of PET (Poly Ethylene Threpthalate) containers and Bottles.  Our Directors having an experience of 20 plus years in this field In 2007 we have started our new brand Steelo™ and marketing </p>
+                    <p>throughout India. After launching this product within 3 months we</p>
+                    <p>have created a brand in the market available throughout India 
+                    approximately in 5000 outlets.  Steelo is a combination of PET and Steel. We are taking keen caution in supplying quality material even the PET containers are made in single stretch blown machine and high quality steel is used to make the lid. Even for the printing we are using food grade materials. In addition to PET products, we have  introduced TRITAN material first time in India. </p>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <section id="beginning" class="download text-center">
+
+        <div class="container">
+            <div class="row">
+
+
+                <div class="col-md-6 left">
+                    <img class="img-responsive beginning-hover-img"  src="img/rightimg.png">
+                    <div class="beginning-hover">
+                        <h1 class="hover-text">Lorem Ipsum</h1>
+                    </div>
+                    <div class="half-dash  mar-top-10"></div>
+
+                </div>
+                <br>
+
+                <div class="col-md-6 left" style="position: relative;">
+                    <p>STEELO  has been established as a manufacturing company in India. Our traditional business model is based on the accomplishment of PET (Poly Ethylene Threpthalate) containers and Bottles.  Our Directors having an experience of 20 plus years in this field In 2007 we have started our new brand Steelo™ and marketing </p>
+                    <p>throughout India. After launching this product within 3 months we</p>
+                    <p>have created a brand in the market available throughout India 
+                    approximately in 5000 outlets.  Steelo is a combination of PET and Steel. We are taking keen caution in supplying quality material even the PET containers are made in single stretch blown machine and high quality steel is used to make the lid. Even for the printing we are using food grade materials. In addition to PET products, we have  introduced TRITAN material first time in India. </p>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+    <section id="beginning" class="download bg-primary text-center parallax">
+
+        <div class="container">
+            <div class="row">
+
+
+                <div class="col-md-6 left">
+                    <img class="img-responsive beginning-hover-img"  src="img/rightimg.png">
+                    <div class="beginning-hover">
+                        <h1 class="hover-text">Lorem Ipsum</h1>
+                    </div>
+                    <div class="half-dash  mar-top-10"></div>
+
+                </div>
+                <br>
+
+                <div class="col-md-6 left" style="position: relative;">
+                    <p>STEELO  has been established as a manufacturing company in India. Our traditional business model is based on the accomplishment of PET (Poly Ethylene Threpthalate) containers and Bottles.  Our Directors having an experience of 20 plus years in this field In 2007 we have started our new brand Steelo™ and marketing </p>
+                    <p>throughout India. After launching this product within 3 months we</p>
+                    <p>have created a brand in the market available throughout India 
+                    approximately in 5000 outlets.  Steelo is a combination of PET and Steel. We are taking keen caution in supplying quality material even the PET containers are made in single stretch blown machine and high quality steel is used to make the lid. Even for the printing we are using food grade materials. In addition to PET products, we have  introduced TRITAN material first time in India. </p>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <section id="beginning" class="download text-center">
+
+        <div class="container">
+            <div class="row">
+
+
+                <div class="col-md-6 left">
+                    <img class="img-responsive beginning-hover-img"  src="img/rightimg.png">
+                    <div class="beginning-hover">
+                        <h1 class="hover-text">Lorem Ipsum</h1>
+                    </div>
+                    <div class="half-dash  mar-top-10"></div>
+
+                </div>
+                <br>
+
+                <div class="col-md-6 left" style="position: relative;">
+                    <p>STEELO  has been established as a manufacturing company in India. Our traditional business model is based on the accomplishment of PET (Poly Ethylene Threpthalate) containers and Bottles.  Our Directors having an experience of 20 plus years in this field In 2007 we have started our new brand Steelo™ and marketing </p>
+                    <p>throughout India. After launching this product within 3 months we</p>
+                    <p>have created a brand in the market available throughout India 
+                    approximately in 5000 outlets.  Steelo is a combination of PET and Steel. We are taking keen caution in supplying quality material even the PET containers are made in single stretch blown machine and high quality steel is used to make the lid. Even for the printing we are using food grade materials. In addition to PET products, we have  introduced TRITAN material first time in India. </p>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="container">
+            <p class="left">Copyright &copy; 2016 www.steelo.in | Developed by Ravi Java</p>
+
+            <!-- <ul class="list-inline">
+                <li>
+                    <a href="#">Privacy</a>
+                </li>
+                <li>
+                    <a href="#">Terms</a>
+                </li>
+                <li>
+                    <a href="#">FAQ</a>
+                </li>
+            </ul> -->
+
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/new-age.min.js"></script>
+
+   <!--  <script>
+      var map;
+      function initMap() {
+
+            var uluru = {lat: 19.1718762, lng: 72.85542499999997};
+            var map = new google.maps.Map(document.getElementById('map'), {
+              zoom: 15,
+              center: uluru
+            });
+
+            var contentString = 'A/226, Synthofine Industrial Estate,<br>Off Aarey Road, Goregaon(E)<br>Mumbai - 400063';
+
+            var infowindow = new google.maps.InfoWindow({
+              content: contentString
+            });
+
+            var marker = new google.maps.Marker({
+              position: uluru,
+              map: map,
+              title: 'Uluru (Ayers Rock)'
+            });
+            marker.addListener('click', function() {
+              infowindow.open(map, marker);
+            });
+      }
+
+    </script>
+     -->
+<!--     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAMAmTcUY7uiO9yfNBYF-iftjEc9tHRFQM&callback=initMap"
+    async defer></script> -->
+
+
+    <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/css3-animate-it/1.0.3/js/css3-animate-it.js"></script> -->
+
+    <script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
+    <script type="text/javascript">
+        
+        window.sr = ScrollReveal({ reset: true });
+        
+        sr.reveal('.bottle-hover',{useDelay: 'always', duration: 2000 , origin: 'bottom',distance: '300px',delay: 500});
+        sr.reveal('.blur-product',{useDelay: 'always', duration: 3000 , origin: 'top',distance: '200px',delay: 500});
+
+    </script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
