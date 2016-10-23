@@ -27,9 +27,9 @@ footer {
 }
 
 
-.nav{
+.fullwidth{
 
-    padding-right: 20%;
+    width: 100%;
 }
 /*
 Fade content bs-carousel with hero headers
@@ -197,12 +197,10 @@ Image credits: unsplash.com
     background-color: transparent;
 }
 
-#mainNav{
-
-	padding:15px; 
-        background-color: #363636;
+#mainNav {
+    padding: 50px 0 0px 15px;
+    background-color: #363636;
 }
-
 .navbar-default .nav>li>a {
     font-size: 16px;
     font-weight: 400;
@@ -753,9 +751,52 @@ a{
 }
 
 
+.navbar-default .nav>li>a, .navbar-default .nav>li>a:focus {
+     color: white;
+}
 
+
+    .navbar-default.affix .nav>li>a, .navbar-default.affix .nav>li>a:focus {
+    color: white;
+}
+
+
+.textblack{
+
+    color: black;   
+}
+
+
+.philosophy-img{
+
+    background: url(../img/rightimghover.png) no-repeat center center fixed;
+    background-size: cover;
+
+}
+
+
+#owl-demo .item{
+  margin: 3px;
+}
+#owl-demo .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+
+.floatright{
+
+    float: right;
+}
+.floatleft{
+
+    float: left;
+}
 
 @media (max-width: 768px) { 
+
+
 
     .pad-100 {
     padding: 0 20px;
